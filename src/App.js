@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Header />
+      <Content />
+      <Footer />
+    </main>
   );
 }
 
+function Header() {
+  return <header>💰 TIP CALCULATOR 😀</header>;
+}
+
+function Content() {
+  return <div class="content">💰 TIP CALCULATOR 😀</div>;
+}
+
+function Footer() {
+  return <footer> Created by Edwin Alwin - React Projects</footer>;
+}
+
 export default App;
+
+
+// Bill Component
+// Select Percentage
+// Re-use same Select Percentage COMPONENT
+// OUTPUT Component
+// RESET Component
